@@ -1,0 +1,16 @@
+/node_modules/**
+/coverage/**
+/dist/**
+/test-app/dist/**
+.DS_Store
+
+.idea/
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+test-app/dist/
+coverage/
+
+test-app/preview-dist/

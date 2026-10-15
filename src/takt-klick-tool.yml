@@ -1,0 +1,124 @@
+raphael-mayrhofer/educandu-plugin-takt-klick-tool:
+  name:
+    de: "Rhythmen bauen"
+    en: "Build rhythms"
+  meter:
+    de: "Taktart"
+    en: "Time signature"
+  bars:
+    de: "Takte"
+    en: "Measures"
+  tempo:
+    de: "Tempo (Viertel/Minute)"
+    en: "Tempo (quarter notes/minute)"
+  notes:
+    de: "Noten"
+    en: "Notation"
+  dotted:
+    de: "Punktierte Noten"
+    en: "Dotted notes"
+  beamed:
+    de: "Balken statt Fähnchen"
+    en: "Beams instead of flags"
+  loop:
+    de: "Wiederholen"
+    en: "Repeat"
+  countIn:
+    de: "Einzähler"
+    en: "Count-in"
+  on:
+    de: "an"
+    en: "on"
+  off:
+    de: "aus"
+    en: "off"
+  play:
+    de: "Abspielen"
+    en: "Play"
+  stop:
+    de: "Stoppen"
+    en: "Stop"
+  mix:
+    de: "Metronom ↔ Rhythmus"
+    en: "Metronome ↔ Rhythm"
+  reset:
+    de: "Reset"
+    en: "Reset"
+  hint:
+    de: "Stein wählen und Position anklicken oder ziehen. Auf andere Steine ziehen ersetzt sie. Nach unten zur Sammlung ziehen, Doppelklick oder Entf löscht. Pfeiltasten verschieben."
+    en: "Choose a brick and click a position, or drag. Drop onto bricks to replace them. Drag down to the palette, double-click or press Delete to remove. Arrow keys move bricks."
+  noFit:
+    de: "Hier passt der Stein nicht hin."
+    en: "This brick does not fit here."
+  dropHint:
+    de: "Ziehe den Stein in eine Taktzeile oder zum Löschen nach unten zur Sammlung."
+    en: "Drag into a measure, or down to the palette to remove."
+  barLabel:
+    de: "Takt {{number}}"
+    en: "Measure {{number}}"
+  continued:
+    de: "Fortsetzung"
+    en: "continued"
+  slot:
+    de: "Takt {{bar}}, Position {{slot}}"
+    en: "Measure {{bar}}, position {{slot}}"
+  stone:
+    de: "{{value}}, Takt {{bar}}. Entf zum Entfernen."
+    en: "{{value}}, measure {{bar}}. Delete to remove."
+  notation:
+    de: "Rhythmusnoten und Pausen, {{meter}}"
+    en: "Rhythm notation and rests, {{meter}}"
+  palette:
+    de: "Deine Bausteine"
+    en: "Your bricks"
+  countStatus:
+    de: "Einzähler: {{count}} von {{total}}"
+    en: "Count-in: {{count}} of {{total}}"
+  of:
+    de: "von {{total}}"
+    en: "of {{total}}"
+  filled:
+    de: "{{used}} / {{total}} Punkte belegt"
+    en: "{{used}} / {{total}} studs used"
+  close:
+    de: "Schließen"
+    en: "Close"
+  unsupported:
+    de: "Dieser Browser unterstützt keine Audiowiedergabe."
+    en: "This browser does not support audio playback."
+  blocked:
+    de: "Audio konnte nicht gestartet werden. Bitte erneut Abspielen drücken."
+    en: "Audio could not start. Please press Play again."
+  interrupted:
+    de: "Audio wurde unterbrochen. Bitte erneut Abspielen drücken."
+    en: "Audio was interrupted. Please press Play again."
+  editorHint:
+    de: "Lege hier die Start-Einstellungen und einen optionalen Ausgangsrhythmus fest. Lernende bearbeiten ihre eigene gespeicherte Fassung."
+    en: "Set the initial settings and an optional starting rhythm. Learners edit their own saved version."
+  value16:
+    de: "Ganze"
+    en: "Whole note"
+  value12:
+    de: "Punktierte Halbe"
+    en: "Dotted half note"
+  value8:
+    de: "Halbe"
+    en: "Half note"
+  value6:
+    de: "Punktierte Viertel"
+    en: "Dotted quarter note"
+  value4:
+    de: "Viertel"
+    en: "Quarter note"
+  value3:
+    de: "Punktierte Achtel"
+    en: "Dotted eighth note"
+  value2:
+    de: "Achtel"
+    en: "Eighth note"
+  value1:
+    de: "Sechzehntel"
+    en: "Sixteenth note"
+  invalidInput:
+    de: "Die gespeicherte Eingabe ist ungültig. Der Ausgangsrhythmus wird angezeigt."
+    en: "The saved input is invalid. The starting rhythm is displayed."

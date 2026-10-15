@@ -1,0 +1,34 @@
+.EP_RaphaelMayrhofer_TaktKlickTool {
+  &_Root { position: relative; min-width: 0; padding: 12px; border: 1px solid #d9e1eb; border-radius: 12px; background: #f6f9fd; color: #24354a; box-sizing: border-box; }
+  &_Root *, &_Root *::before, &_Root *::after { box-sizing: border-box; }
+  &_Root h2, &_Root h3 { margin: 8px 0; }
+  &_Controls { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+  &_Controls label { display: flex; flex-direction: column; gap: 4px; }
+  &_Slider { width: 170px; max-width: 100%; }
+  &_Measures { display: flex; flex-wrap: wrap; gap: 14px 0; align-items: flex-start; }
+  &_Measure { flex: 0 0 auto; max-width: 100%; padding-top: 4px; }
+  &_Counts { display: flex; margin-left: 38px; height: 22px; font-size: 11px; }
+  &_Counts span { flex: 0 0 24px; text-align: center; }
+  &_Track { position: relative; height: 48px; margin-left: 38px; display: flex; background: #e3eaf3; box-shadow: inset 1px 0 #61738b, inset -1px 0 #61738b; }
+  &_Slot, &_SlotTarget { flex: 0 0 24px; width: 24px; border: 0; border-right: 1px dotted #b8c4d3; padding: 0; background: transparent; color: #93a6bc; cursor: pointer; }
+  &_SlotTarget { background: #ffe28b; }
+  &_Placed { position: absolute; top: 6px; height: 36px; border: 0; background: none; padding: 0; cursor: grab; touch-action: none; overflow: hidden; }
+  &_Brick, &_BrickCompact { display: flex; flex: 0 0 auto; height: 36px; padding: 0; align-items: center; background: var(--brick-color); border-radius: 3px; box-shadow: inset 0 3px 2px #ffffff88, inset 0 -5px 0 #0003, inset 1px 0 0 #0004, inset -1px 0 0 #0004; }
+  &_Stud { flex: 0 0 16px; width: 16px; height: 16px; margin: 0 4px; border-radius: 50%; background: var(--brick-color); box-shadow: inset 0 2px 2px #ffffff99, inset 0 -2px 1px #0003, 0 2px 2px #0005; }
+  &_BrickCompact { flex-wrap: wrap; width: auto !important; max-width: 100%; height: auto; min-height: 36px; row-gap: 10px; padding: 8px 0; }
+  &_Palette { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+  &_Choice { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; padding: 5px; max-width: 100%; border: 2px solid transparent; background: transparent; border-radius: 6px; cursor: grab; touch-action: none; text-align: left; color: inherit; }
+  &_Choice[aria-pressed='true'] { border-color: #315c94; background: #e4ecf8; }
+  &_Choice:disabled { opacity: .45; cursor: default; }
+  &_Choice > span:last-child { display: flex; align-items: center; }
+  &_Icon { width: 25px; height: 30px; display: inline-flex; margin-right: 5px; }
+  &_Notation { height: 70px; overflow: hidden; pointer-events: none; }
+  &_Notation svg { height: 70px; width: 100%; display: block; }
+  &_Cursor { position: absolute; top: -4px; width: 2px; background: #cf2647; z-index: 3; pointer-events: none; }
+  &_Cursor::before { content: ''; position: absolute; top: 0; left: -4px; border: 5px solid transparent; border-top-color: #cf2647; }
+  &_CountPopup, &_Popup { position: fixed; z-index: 10000; left: 50%; top: 50%; transform: translate(-50%, -50%); width: min(280px, calc(100vw - 24px)); padding: 20px; border: 3px solid #315c94; border-radius: 20px; background: white; color: #193451; box-shadow: 0 15px 60px #19345166; font-size: 20px; }
+  &_CountPopup { display: flex; flex-direction: column; align-items: center; pointer-events: none; }
+  &_CountPopup strong { font-size: 100px; line-height: 1.2; }
+  &_Popup { border-color: #b74e11; }
+  &_Ghost { position: fixed; z-index: 9999; pointer-events: none; opacity: .9; }
+}

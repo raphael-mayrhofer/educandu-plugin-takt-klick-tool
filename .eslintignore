@@ -1,0 +1,5 @@
+/dist/**
+/coverage/**
+/test-app/dist/**
+
+/test-app/preview-dist/**
